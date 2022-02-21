@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  
+}
+
+code {
+  font-family: helvetica, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+textArea {
+  background-color: rgb(117, 117, 117);
+  color: rgb(0, 0, 0);
+}
+
+.topHeader {
+  background-color: rgb(0, 68, 255);
+  color: white;
+  width: 100vw;
+  height: 7vh;
+  font-size: 8vh;
+  text-align: center;
+  padding: 30px;
+  margin-top: 0px;
+}
+
+.entryListBox {
+  border: 3px solid rgb(0, 0, 240);
+  border-radius: 25px;
+  width: 45vw;
+  margin: 10px;
+  padding: 15px;
+  background-color: black;
+}
+
+.entryBox {
+  border: 3px solid rgb(240, 128, 0);
+  border-radius: 25px;
+  margin: 10px;
+  padding: 15px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.createBox {
+  border: 3px solid rgb(240, 128, 0);
+  border-radius: 25px;
+  width: 44vw;
+  margin: 10px;
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  text-align: center;
+}
+
+.bigTextSize {
+  font-size: 100px;
+}
