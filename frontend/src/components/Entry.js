@@ -4,8 +4,8 @@ function Entry(props) {
   
   return(<div className="entryBox">
     On {props.entry.night}, you slept for {props.entry.duration} hours.     
-    <button style={{'position':'absolute', 'left':'35vw'}} onClick={() => props.updateCallBack(props.id)}>Update</button>
-    <button onClick = {() => props.deleteEntry(props.id)} style={{'position':'absolute', 'left':'40vw'}}>Delete</button>
+    <button style={{'position':'absolute', 'left':'83vw'}} onClick={() => props.updateCallBack(props.id)}>Update</button>
+    <button onClick = {() => props.deleteEntry(props.id)} style={{'position':'absolute', 'left':'90vw'}}>Delete</button>
 
   </div>);
 }
